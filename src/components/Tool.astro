@@ -1,0 +1,57 @@
+<section>
+  <fieldset>
+    <legend>源网址</legend>
+    <input
+      id="origin-url"
+      type="url"
+      placeholder="https://oooooooooooooooooooooooooooooooooooooooooooooooooooo.online"
+    />
+  </fieldset>
+  <fieldset>
+    <legend>加长长长长...版</legend>
+    <textarea id="long-url" rows="6" readonly class="break-all" aria-label="ONLINENOW"></textarea>
+    <button id="open-url">打如开</button>
+    <button id="copy-url">复如制</button>
+  </fieldset>
+</section>
+
+<style>
+  fieldset {
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  input,
+  textarea {
+    width: 100%;
+    resize: none;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+    font-family: "Caveat", serif;
+  }
+
+  input:hover,
+  textarea:hover {
+    margin-bottom: 1rem;
+  }
+
+  input:focus,
+  textarea:focus {
+    margin-bottom: 1rem;
+  }
+
+  input::placeholder {
+    color: #897a69;
+  }
+
+  button {
+    margin-top: 0;
+  }
+
+  .break-all {
+    word-break: break-all;
+  }
+</style>
+
+<script src="../assets/js/tool.js"></script>

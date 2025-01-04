@@ -1,0 +1,44 @@
+<section>
+  <fieldset style="display: none;" id="display-url">
+    <legend>GO NOW!</legend>
+    <p>
+      此链接指向 <span id="real-url-text"></span> .
+      <br />
+      我们无法确认此链接的安全性。请谨慎点击。
+    </p>
+    <a id="real-url" href="#" title="Open URL" rel="noopener noreferrer">
+      <button>打如开</button>
+    </a>
+
+    <a href="/" title="Go Home">
+      <button>首页</button>
+    </a>
+  </fieldset>
+
+  <Fragment set:html={import.meta.env.CONTENT_INJECT} />
+</section>
+
+<style>
+  fieldset {
+    width: auto;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  span {
+    word-break: break-word;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  button {
+    margin: 1rem auto;
+  }
+</style>
+
+<script src="../assets/js/display.js"></script>
