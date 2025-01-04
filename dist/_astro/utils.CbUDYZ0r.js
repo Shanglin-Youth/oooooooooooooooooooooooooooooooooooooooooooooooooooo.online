@@ -1,0 +1,1 @@
+function o(e){return e.split("").map(r=>r.charCodeAt(0).toString(2).padStart(16,"0")).join("").replaceAll("1","O").replaceAll("0","o")}function i(e){const r=e.replaceAll("O","1").replaceAll("o","0");let n="";for(let t=0;t<r.length;t+=16){const a=r.slice(t,t+16),l=Number.parseInt(a,2);n+=String.fromCharCode(l)}return n}export{i as b,o as s};
