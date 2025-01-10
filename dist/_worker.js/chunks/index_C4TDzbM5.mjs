@@ -7,7 +7,7 @@ const $$Content = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<section data-astro-cid-kqty5qjk> <fieldset data-astro-cid-kqty5qjk> <p data-astro-cid-kqty5qjk>
 一个域名最多可以注册63个字符（当然，我认为52个0更浪漫），所以我们注册了 <a href="https://oooooooooooooooooooooooooooooooooooooooooooooooooooo.online" title="You Are O*52.online" class="break-all" data-astro-cid-kqty5qjk>O*52.online</a>.
 <br data-astro-cid-kqty5qjk>
-然后我们创建了一个有趣的URL加长工具(你知道的，<del data-astro-cid-kqty5qjk>删除线测试文字delete</del>很少有人会这么无聊......)，这就是你现在看到的页面
+然后我们创建了一个有趣的URL加长工具(你知道的，<del data-astro-cid-kqty5qjk>挺多人都这么干</del>很少有人会这么无聊......)，这就是你现在看到的页面
 <br data-astro-cid-kqty5qjk>
 域名的最大长度为 253 个字符，因此 <a target="_blank" href="https://ooooooooooooooooooooooooooooooooooooo.oooooooooooooooooooooooooooooooooooooooooooooooooo.oooooooooooooooooooooooooooooooooooooooooooooooooo.oooooooooooooooooooooooooooooooooooooooooooooooooo.oooooooooooooooooooooooooooooooooooooooooooooooooooo.online" title="Longer than Long" data-astro-cid-kqty5qjk>世界上最长的252个域名中的一个</a> 就此诞生。
 <br data-astro-cid-kqty5qjk> </p> </fieldset> ${renderComponent($$result, "Fragment", Fragment, {}, { "default": ($$result2) => renderTemplate`${unescapeHTML({"BASE_URL": "/", "MODE": "production", "DEV": false, "PROD": true, "SSR": true, "SITE": undefined, "ASSETS_PREFIX": undefined}.CONTENT_INJECT)}` })} </section> `;
